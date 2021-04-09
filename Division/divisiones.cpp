@@ -8,17 +8,18 @@ Divisiones::Divisiones(int a, int n)
 
 int Divisiones::divisionEnteros()
 {
-	int resto;
-	int cociente, res;
+	int coci;
+	int rest, res;
 
-	resto = a / n;//residuo
-	cociente = a - (resto * n);//cociente
-
-	if (cociente < 0)
+	coci = a / n;//cociente
+	rest = a - (coci * n);//resto
+	std::cout << "cociente " << rest;
+	std::cout << std::endl <<coci<<std::endl;
+	if (rest < 0)
 	{
-		res = cociente+n;
+		res = rest+n;
 		return res;
 	}
-	return cociente;
+	return rest;
 	
 }
