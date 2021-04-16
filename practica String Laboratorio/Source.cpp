@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 using namespace std;
-int divisionEnteros(int a, int n);
+
 int main()
 {
 	string cadena1 = "Intente analizar mas profundamente los mensajes recibidos";
