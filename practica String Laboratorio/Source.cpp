@@ -5,10 +5,16 @@ using namespace std;
 
 int main()
 {
-	string cadena1 = "Intente analizar mas profundamente los mensajes recibidos";
+	string cadena1;
+	int cadaBloque;
+	
+	
+	getline(cin, cadena1);
+	cin >> cadaBloque;
 	string resultado;
 	vector <string> palabras;
-	int cadaBloque = 4;
+	
+	
 	int resto = cadena1.length() % cadaBloque;
 	
 	if (cadena1.length() % cadaBloque)//caracteres faltantees
